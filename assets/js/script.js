@@ -146,10 +146,10 @@
               translate: ["100%", 0, 0],
             },
           },
-          autoplay: {
-            delay: 4000,
-            disableOnInteraction: false,
-          },
+          // autoplay: {
+          //   delay: 4000,
+          //   disableOnInteraction: false,
+          // },
           pagination: {
             el: ".hero-slider-pagination",
             clickable: true,
