@@ -1,0 +1,54 @@
+/* Start Title Font */
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* End Title Font */
+
+/* Start Body Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* End Body Font  */
+
+/* Start Header Style */
+h1{
+    font-size: var(--fs-xxxl);
+    line-height: 72px;
+    @media (max-width:991px){
+        font-size: var(--fs-xxl);
+        line-height: 58px;
+    }
+    @media (max-width:575px){
+        font-size: var(--fs-lg);
+        line-height: 39px;
+    }
+}
+h2{
+    font-size: var(--fs-xxl);
+    line-height: 58px;
+    @media (max-width:991px){
+        font-size: var(--fs-xl);
+        line-height: 44px;
+    }
+    @media (max-width:575px){
+        font-size: var(--fs-lg);
+        line-height: 39px;
+    }
+}
+h3{
+    font-size: var(--fs-xl);
+    line-height: 44px;
+    @media (max-width:991px){
+        font-size: var(--fs-lg);
+        line-height: 39px;
+    }
+}
+h4{
+    font-size: var(--fs-lg);
+    line-height: 39px;
+}
+h5{
+    font-size: var(--fs-md);
+    line-height: 30px;
+}
+h6{
+    font-size: var(--fs-sm);
+    line-height: 26px;
+}
+/* End Header Style */

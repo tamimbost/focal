@@ -1,0 +1,43 @@
+/* Start Button Style */
+.theme-btn {
+    position: relative;
+    font-size: var(--fs-body);
+    line-height: 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-lemon-green-color);
+    padding: 13px 39px;
+    color: var(--theme-secondary-color);
+    font-weight: 500;
+    font-family: var(--theme-body-font);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.theme-btn::after,
+.theme-btn::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    background-color: rgba(17, 17, 17, 0.226);
+    transition: 0.4s ease-in;
+    z-index: -1;
+}
+
+.theme-btn:hover::after,
+.theme-btn:hover::before {
+    width: 50%;
+}
+
+.theme-btn::after {
+    right: 0;
+}
+
+.theme-btn::before {
+    left: 0;
+}
+
+/* End Button Style */

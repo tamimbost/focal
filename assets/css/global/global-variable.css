@@ -1,0 +1,42 @@
+:root {
+  /* Start Color Palet */
+
+  --theme-primary-color:#fff;
+  --theme-secondary-color:#000;
+  --theme-lemon-green-color:#F3FF34;
+  --theme-smoke-black:#282828;
+  --theme-smoke-gray:#686868;
+  --theme-forest-green:#434935;
+  --theme-megent-blue:#9AA9AD;
+  --theme-neon-yellow:#FCED56;
+  /* End Color Palet */
+
+  /* Start Font Family */
+  --theme-title-font:"Tomorrow", sans-serif;
+  --theme-body-font:"Rubik", sans-serif;
+  /* End Font Family */
+
+  /* Start Font Size */
+  --fs-xxxl:72px;
+  --fs-xxl:54px;
+  --fs-xl:40px;
+  --fs-lg:34px;
+  --fs-md:26px;
+  --fs-sm:14px;
+  --fs-body:15px;
+  --fs-min-font:12px;
+  /* End Font Size */
+
+  /* Start Breakpoint */
+  --theme-hd: 1921px;     /* Larger than 1920px */
+  --theme-xxl: 1500px;    /* Extra large devices */
+  --theme-ml: 1399px;     /* Medium large */
+  --theme-xl: 1299px;     /* Medium large */
+  --theme-lg: 1199px;     /* Large (laptop) */
+  --theme-md: 991px;      /* Medium (tablet) */
+  --theme-sm: 767px;      /* Small devices */
+  --theme-xs: 575px;      /* Extra small */
+  --theme-vxs: 375px;     /* Very extra small */
+  /* End Breakpoint */
+
+}
